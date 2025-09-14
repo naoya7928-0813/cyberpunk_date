@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.1",
+  "room_code_format": "G-C-RR-[A|B]",
+  "room_code_notes": "G=学年(1/2/3), C=クラス(1..4), RR=部屋番号(01..20), A|B=同室者スロット。例: 2-3-07-A。",
+  "buildings": [
+    {
+      "code": "SAKURA",
+      "name": "桜寮",
+      "for_grades": [1],
+      "type": "女子寮(一般)",
+      "floors": 4,
+      "rooms_per_floor": 20,
+      "room_type": "ツイン(二人部屋/TV1台)",
+      "capacity_students": 160,
+      "quiet_hours": "22:00-06:00",
+      "curfew_jst": "22:00",
+      "staff_office": "1F 管理室",
+      "notes": "1年生用。各フロア=各クラス。例: 1組=2F, 2組=3F, 3組=4F, 4組=5F相当の配置。"
+    },
+    {
+      "code": "KAEDE",
+      "name": "楓寮",
+      "for_grades": [2],
+      "type": "女子寮(一般)",
+      "floors": 4,
+      "rooms_per_floor": 20,
+      "room_type": "ツイン(二人部屋/TV1台)",
+      "capacity_students": 160,
+      "quiet_hours": "22:00-06:00",
+      "curfew_jst": "22:00",
+      "staff_office": "1F 管理室",
+      "notes": "2年生用。各フロア=各クラス。"
+    },
+    {
+      "code": "TSUBAKI",
+      "name": "椿寮",
+      "for_grades": [3],
+      "type": "女子寮(一般)",
+      "floors": 4,
+      "rooms_per_floor": 20,
+      "room_type": "ツイン(二人部屋/TV1台)",
+      "capacity_students": 160,
+      "quiet_hours": "22:00-06:00",
+      "curfew_jst": "22:00",
+      "staff_office": "1F 管理室",
+      "notes": "3年生用。各フロア=各クラス。"
+    },
+    {
+      "code": "LILY",
+      "name": "白百合別棟",
+      "for_grades": [],
+      "type": "特別保護区画(別棟)",
+      "floors": 2,
+      "rooms_per_floor": 3,
+      "room_type": "特別個室(防音/非常用隠蔽/医療ボタン/TV1台)",
+      "capacity_students": 6,
+      "quiet_hours": "常時静粛",
+      "curfew_jst": "22:00",
+      "staff_office": "1F セキュリティ管制室",
+      "notes": "特別保護対象専用。二重施錠・二人体制。一般生徒立入禁止。"
+    },
+    {
+      "code": "COMMONS",
+      "name": "共用棟",
+      "type": "共同施設",
+      "facilities": {
+        "cafeteria": {
+          "name": "大食堂",
+          "seats": 300,
+          "hours_jst": {
+            "breakfast": "06:30-08:30",
+            "lunch": "11:30-13:30",
+            "dinner": "18:00-20:30"
+          },
+          "service": [
+            "定食ライン(和/洋/週替わり)",
+            "弁当販売(朝・昼/数量限定)",
+            "ベーカリー(焼き上がり 07:00/16:30)",
+            "飲料バー(給茶・スープ)"
+          ],
+          "notes": "献立は週次更新。アレルギー表示徹底。テイクアウト可(22:00までに部屋で飲食終了)。"
+        },
+        "bathhouse": {
+          "name": "大浴場",
+          "capacity": 30,
+          "hours_jst": "16:00-22:30(最終入場22:00)",
+          "sauna": {
+            "type": "ドライサウナ",
+            "capacity": 8,
+            "recommended_cycle_min": 10,
+            "cooldown": "水風呂/休憩ベンチ"
+          },
+          "cleaning": ["15:00-16:00 仕上げ清掃", "21:00-21:15 小清掃"],
+          "priority_windows": [
+            {"slot":"20:30-21:00","priority":"3年 推奨時間帯"},
+            {"slot":"19:30-20:00","priority":"2年 推奨時間帯"},
+            {"slot":"18:30-19:00","priority":"1年 推奨時間帯"}
+          ],
+          "notes": "混雑時は入場制限あり。髪を束ねる/撮影禁止/会話は控えめ。"
+        }
+      }
+    }
+  ],
+  "security": {
+    "entry": {
+      "auth": ["学生証IC/NFC", "掌静脈(寮入口のみ)"],
+      "visitor": "原則禁止。校長・寮監・特別保護委員が許可した場合のみ時間限定。",
+      "log_retention_days": 90
+    },
+    "cameras": {
+      "zones": ["玄関", "廊下", "談話室", "外周フェンス", "非常階段"],
+      "no_camera_zones": ["各居室", "浴室/更衣室", "医務室内部"]
+    },
+    "alerts": {
+      "silent_alarm": "各階非常ボタン→管制室直通",
+      "curfew_breach": "門限超過で自動通知→寮務委員/教職員",
+      "door_forced": "扉こじ開け検知→警備/危機管理委員"
+    },
+    "patrol": {
+      "by": ["寮務委員", "教職員当直", "警備(外周)"],
+      "schedule": ["21:30 廊下巡回", "22:00 点呼・門限施錠", "24:00 消灯確認", "05:30 早朝巡回"]
+    }
+  },
+  "operations": {
+    "assignment_policy": "学年ごとに寮棟固定。クラス=フロア固定。各室ツイン(二人部屋)。",
+    "roommate_matching": {
+      "default": "同一クラス内シャッフル配属",
+      "constraints": ["既知のトラブル回避", "アレルギー/生活リズム配慮", "委員会・部活の活動時間帯"],
+      "change_rules": "学期末に申請可。健康/安全理由は随時審査。"
+    },
+    "checkin": "入寮初日にIC登録・生体登録・避難経路ブリーフィング。",
+    "checkout": "退寮時に鍵/カード返却・室内点検・ログ削除申請(規程に従う)。",
+    "quiet_hours": "22:00-06:00 会話/音量を最小化(ヘッドホン推奨)。談話室は22:30まで。",
+    "study_hours": "20:00-21:30 自習推奨。",
+    "tv_policy": "各室TVは1台のみ。21:00以降はヘッドホン必須。録画機能は寮務委員の承認制。"
+  },
+  "privacy_compliance": {
+    "gps_data": "男子のGPSデータは校外の国家管轄。校内システムは参照しない。女子の位置情報は取得しない。",
+    "access_logs": "入退室ログは教育目的に限定。用途外利用禁止。",
+    "audit": "情報セキュリティ委員が月次監査し、概要を校内ポータルに掲出。"
+  },
+  "room_layout_rules": {
+    "furniture": [
+      "ベッド×2(セミシングル)",
+      "デスク×2/椅子×2",
+      "クローゼット×2",
+      "本棚×2",
+      "鍵付引出し×2",
+      "小型冷蔵庫×1(共有)",
+      "TV×1(共有)"
+    ],
+    "prohibited": [
+      "無許可の熱源器具",
+      "高出力オーディオ",
+      "ドローン充電(許可制)"
+    ],
+    "allowances": [
+      "加湿器",
+      "観葉植物(小型)",
+      "デスクライト(省電力)"
+    ]
+  }
+}
