@@ -1,0 +1,14 @@
+{
+  "id": "districts_central",
+  "class_id": "class_central",
+  "districts": [
+    {"id": "district_mid_square", "name": "ミッド・スクエア"},
+    {"id": "district_silver_avenue", "name": "シルバー・アベニュー"},
+    {"id": "district_circle_market", "name": "サークル・マーケット"},
+    {"id": "district_argo_bridge", "name": "アルゴ・ブリッジ"},
+    {"id": "district_new_capital_heights", "name": "ニュー・キャピタル・ハイツ"},
+    {"id": "district_orbital_town", "name": "オービタル・タウン"},
+    {"id": "district_leyline_street", "name": "レイライン・ストリート"},
+    {"id": "district_metro_block47", "name": "メトロ・ブロック47"}
+  ]
+}
