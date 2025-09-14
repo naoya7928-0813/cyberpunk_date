@@ -2,13 +2,61 @@
   "id": "districts_dustlanders",
   "class_id": "class_dustlanders",
   "districts": [
-    {"id": "district_sand_clan", "name": "サンド・クラン"},
-    {"id": "district_rust_camp", "name": "ラスト・キャンプ"},
-    {"id": "district_dusk_colony", "name": "ダスク・コロニー"},
-    {"id": "district_bone_market", "name": "ボーン・マーケット"},
-    {"id": "district_iron_wall", "name": "アイアン・ウォール"},
-    {"id": "district_breach_point", "name": "ブリーチ・ポイント"},
-    {"id": "district_dead_oasis", "name": "デッド・オアシス"},
-    {"id": "district_ghost_hammock", "name": "ゴースト・ハンモック"}
+    {
+      "id": "district_sand_clan",
+      "name": "サンド・クラン",
+      "avg_land_price": 500,
+      "population": 750000,
+      "description": "砂丘のテント街。遊牧と輸送護衛で生計。"
+    },
+    {
+      "id": "district_rust_camp",
+      "name": "ラスト・キャンプ",
+      "avg_land_price": 450,
+      "population": 750000,
+      "description": "錆びたコンテナ群の居住地。鉄くずの換金所あり。"
+    },
+    {
+      "id": "district_dusk_colony",
+      "name": "ダスク・コロニー",
+      "avg_land_price": 400,
+      "population": 750000,
+      "description": "夕刻に活気づく集落。日中は高温で活動制限。"
+    },
+    {
+      "id": "district_bone_market",
+      "name": "ボーン・マーケット",
+      "avg_land_price": 300,
+      "population": 750000,
+      "description": "違法売買の中心地。拾得物と臓器が並ぶ。"
+    },
+    {
+      "id": "district_iron_wall",
+      "name": "アイアン・ウォール",
+      "avg_land_price": 350,
+      "population": 750000,
+      "description": "都市境界の防壁沿い。検問と賄賂が横行。"
+    },
+    {
+      "id": "district_breach_point",
+      "name": "ブリーチ・ポイント",
+      "avg_land_price": 250,
+      "population": 750000,
+      "description": "越境トンネルの入口。密輸と脱出の拠点。"
+    },
+    {
+      "id": "district_dead_oasis",
+      "name": "デッド・オアシス",
+      "avg_land_price": 200,
+      "population": 750000,
+      "description": "枯れた泉の跡地。毒ガス注意。"
+    },
+    {
+      "id": "district_ghost_hammock",
+      "name": "ゴースト・ハンモック",
+      "avg_land_price": 150,
+      "population": 750000,
+      "description": "砂嵐の避難用ハンモック群。夜だけ賑わう。"
+    }
   ]
 }
