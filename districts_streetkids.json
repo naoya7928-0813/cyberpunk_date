@@ -1,0 +1,14 @@
+{
+  "id": "districts_streetkids",
+  "class_id": "class_streetkids",
+  "districts": [
+    {"id": "district_block13", "name": "ブロック・13"},
+    {"id": "district_crows_nest", "name": "クロウズ・ネスト"},
+    {"id": "district_spiral_dive", "name": "スパイラル・ダイブ"},
+    {"id": "district_junkway", "name": "ジャンクウェイ"},
+    {"id": "district_red_under", "name": "レッド・アンダー"},
+    {"id": "district_dark_hole", "name": "ダークホール"},
+    {"id": "district_chaos_stair", "name": "カオス・ステア"},
+    {"id": "district_nightshade_alley", "name": "ナイトシェード・アリー"}
+  ]
+}
