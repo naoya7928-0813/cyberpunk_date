@@ -1,0 +1,129 @@
+{
+  "grade": 1,
+  "map": [
+    {"class_id":"1-1","day":"Mon","period":1,"subject":"MAT-101","teacher_id":"HT-1-2"},
+    {"class_id":"1-2","day":"Mon","period":1,"subject":"MAT-101","teacher_id":"HT-3-1"},
+    {"class_id":"1-3","day":"Mon","period":1,"subject":"SCI-101","teacher_id":"HT-1-4"},
+    {"class_id":"1-4","day":"Mon","period":1,"subject":"HOM-101","teacher_id":"TBD-HE-01"},
+
+    {"class_id":"1-1","day":"Mon","period":2,"subject":"SCI-101","teacher_id":"HT-1-4"},
+    {"class_id":"1-2","day":"Mon","period":2,"subject":"SCI-101","teacher_id":"HT-2-4"},
+    {"class_id":"1-3","day":"Mon","period":2,"subject":"MAT-101","teacher_id":"HT-1-2"},
+    {"class_id":"1-4","day":"Mon","period":2,"subject":"MAT-101","teacher_id":"HT-3-1"},
+
+    {"class_id":"1-1","day":"Mon","period":3,"subject":"MAT-101","teacher_id":"HT-1-2"},
+    {"class_id":"1-2","day":"Mon","period":3,"subject":"MAT-101","teacher_id":"HT-3-1"},
+    {"class_id":"1-3","day":"Mon","period":3,"subject":"SCI-101","teacher_id":"AT-2-3"},
+    {"class_id":"1-4","day":"Mon","period":3,"subject":"MAT-101","teacher_id":"HT-1-2"},
+
+    {"class_id":"1-1","day":"Mon","period":4,"subject":"SCI-101","teacher_id":"HT-2-4"},
+    {"class_id":"1-2","day":"Mon","period":4,"subject":"SCI-101","teacher_id":"HT-1-4"},
+    {"class_id":"1-3","day":"Mon","period":4,"subject":"MAT-101","teacher_id":"HT-3-1"},
+    {"class_id":"1-4","day":"Mon","period":4,"subject":"MAT-101","teacher_id":"HT-1-2"},
+
+    {"class_id":"1-1","day":"Mon","period":5,"subject":"ENG-101","teacher_id":"HT-1-3"},
+    {"class_id":"1-2","day":"Mon","period":5,"subject":"ENG-101","teacher_id":"HT-2-3"},
+    {"class_id":"1-3","day":"Mon","period":5,"subject":"MAT-101","teacher_id":"HT-3-1"},
+    {"class_id":"1-4","day":"Mon","period":5,"subject":"MAT-101","teacher_id":"HT-1-2"},
+
+    {"class_id":"1-1","day":"Tue","period":1,"subject":"MAT-101","teacher_id":"HT-1-2"},
+    {"class_id":"1-2","day":"Tue","period":1,"subject":"MAT-101","teacher_id":"HT-3-1"},
+    {"class_id":"1-3","day":"Tue","period":1,"subject":"ENG-101","teacher_id":"HT-1-3"},
+    {"class_id":"1-4","day":"Tue","period":1,"subject":"ENG-101","teacher_id":"HT-2-3"},
+
+    {"class_id":"1-1","day":"Tue","period":2,"subject":"SCI-101","teacher_id":"HT-1-4"},
+    {"class_id":"1-2","day":"Tue","period":2,"subject":"SCI-101","teacher_id":"HT-2-4"},
+    {"class_id":"1-3","day":"Tue","period":2,"subject":"SCI-101","teacher_id":"AT-2-3"},
+    {"class_id":"1-4","day":"Tue","period":2,"subject":"ENG-101","teacher_id":"HT-1-3"},
+
+    {"class_id":"1-1","day":"Tue","period":3,"subject":"ENG-101","teacher_id":"HT-2-3"},
+    {"class_id":"1-2","day":"Tue","period":3,"subject":"ENG-101","teacher_id":"HT-1-3"},
+    {"class_id":"1-3","day":"Tue","period":3,"subject":"JPN-101","teacher_id":"HT-1-1"},
+    {"class_id":"1-4","day":"Tue","period":3,"subject":"SCI-101","teacher_id":"HT-1-4"},
+
+    {"class_id":"1-1","day":"Tue","period":4,"subject":"JPN-101","teacher_id":"HT-2-1"},
+    {"class_id":"1-2","day":"Tue","period":4,"subject":"JPN-101","teacher_id":"HT-1-1"},
+    {"class_id":"1-3","day":"Tue","period":4,"subject":"ENG-101","teacher_id":"HT-2-3"},
+    {"class_id":"1-4","day":"Tue","period":4,"subject":"SOC-101","teacher_id":"AT-1-3"},
+
+    {"class_id":"1-1","day":"Tue","period":5,"subject":"SOC-101","teacher_id":"HT-3-2"},
+    {"class_id":"1-2","day":"Tue","period":5,"subject":"SOC-101","teacher_id":"AT-1-3"},
+    {"class_id":"1-3","day":"Tue","period":5,"subject":"ART-101","teacher_id":"AT-1-4"},
+    {"class_id":"1-4","day":"Tue","period":5,"subject":"JPN-101","teacher_id":"HT-2-1"},
+
+    {"class_id":"1-1","day":"Wed","period":1,"subject":"ART-101","teacher_id":"HT-3-4"},
+    {"class_id":"1-2","day":"Wed","period":1,"subject":"ART-101","teacher_id":"AT-1-4"},
+    {"class_id":"1-3","day":"Wed","period":1,"subject":"SOC-101","teacher_id":"HT-3-2"},
+    {"class_id":"1-4","day":"Wed","period":1,"subject":"HPE-101","teacher_id":"AT-1-2"},
+
+    {"class_id":"1-1","day":"Wed","period":2,"subject":"HPE-101","teacher_id":"AT-3-2"},
+    {"class_id":"1-2","day":"Wed","period":2,"subject":"HPE-101","teacher_id":"AT-1-2"},
+    {"class_id":"1-3","day":"Wed","period":2,"subject":"INF-101","teacher_id":"AT-1-1"},
+    {"class_id":"1-4","day":"Wed","period":2,"subject":"ART-101","teacher_id":"HT-3-4"},
+
+    {"class_id":"1-1","day":"Wed","period":3,"subject":"INF-101","teacher_id":"AT-2-1"},
+    {"class_id":"1-2","day":"Wed","period":3,"subject":"INF-101","teacher_id":"HT-3-3"},
+    {"class_id":"1-3","day":"Wed","period":3,"subject":"HPE-101","teacher_id":"AT-1-2"},
+    {"class_id":"1-4","day":"Wed","period":3,"subject":"INF-101","teacher_id":"AT-1-1"},
+
+    {"class_id":"1-1","day":"Wed","period":4,"subject":"HOM-101","teacher_id":"TBD-HE-01"},
+    {"class_id":"1-2","day":"Wed","period":4,"subject":"MAT-101","teacher_id":"HT-1-2"},
+    {"class_id":"1-3","day":"Wed","period":4,"subject":"MAT-101","teacher_id":"HT-3-1"},
+    {"class_id":"1-4","day":"Wed","period":4,"subject":"SCI-101","teacher_id":"HT-2-4"},
+
+    {"class_id":"1-1","day":"Wed","period":5,"subject":"MAT-101","teacher_id":"HT-3-1"},
+    {"class_id":"1-2","day":"Wed","period":5,"subject":"HOM-101","teacher_id":"TBD-HE-01"},
+    {"class_id":"1-3","day":"Wed","period":5,"subject":"SCI-101","teacher_id":"HT-1-4"},
+    {"class_id":"1-4","day":"Wed","period":5,"subject":"MAT-101","teacher_id":"HT-1-2"},
+
+    {"class_id":"1-1","day":"Thu","period":1,"subject":"SCI-101","teacher_id":"AT-2-3"},
+    {"class_id":"1-2","day":"Thu","period":1,"subject":"SCI-101","teacher_id":"HT-1-4"},
+    {"class_id":"1-3","day":"Thu","period":1,"subject":"HOM-101","teacher_id":"TBD-HE-01"},
+    {"class_id":"1-4","day":"Thu","period":1,"subject":"ENG-101","teacher_id":"HT-2-3"},
+
+    {"class_id":"1-1","day":"Thu","period":2,"subject":"ENG-101","teacher_id":"HT-1-3"},
+    {"class_id":"1-2","day":"Thu","period":2,"subject":"ENG-101","teacher_id":"HT-2-3"},
+    {"class_id":"1-3","day":"Thu","period":2,"subject":"JPN-101","teacher_id":"HT-1-1"},
+    {"class_id":"1-4","day":"Thu","period":2,"subject":"HOM-101","teacher_id":"TBD-HE-01"},
+
+    {"class_id":"1-1","day":"Thu","period":3,"subject":"JPN-101","teacher_id":"HT-2-1"},
+    {"class_id":"1-2","day":"Thu","period":3,"subject":"JPN-101","teacher_id":"HT-1-1"},
+    {"class_id":"1-3","day":"Thu","period":3,"subject":"ENG-101","teacher_id":"HT-1-3"},
+    {"class_id":"1-4","day":"Thu","period":3,"subject":"SOC-101","teacher_id":"HT-3-2"},
+
+    {"class_id":"1-1","day":"Thu","period":4","subject":"SOC-101","teacher_id":"AT-1-3"},
+    {"class_id":"1-2","day":"Thu","period":4","subject":"SOC-101","teacher_id":"HT-3-2"},
+    {"class_id":"1-3","day":"Thu","period":4,"subject":"ART-101","teacher_id":"AT-1-4"},
+    {"class_id":"1-4","day":"Thu","period":4,"subject":"JPN-101","teacher_id":"HT-2-1"},
+
+    {"class_id":"1-1","day":"Thu","period":5,"subject":"ART-101","teacher_id":"HT-3-4"},
+    {"class_id":"1-2","day":"Thu","period":5,"subject":"ART-101","teacher_id":"AT-1-4"},
+    {"class_id":"1-3","day":"Thu","period":5,"subject":"SOC-101","teacher_id":"AT-1-3"},
+    {"class_id":"1-4","day":"Thu","period":5,"subject":"HPE-101","teacher_id":"AT-3-2"},
+
+    {"class_id":"1-1","day":"Fri","period":1,"subject":"HPE-101","teacher_id":"AT-1-2"},
+    {"class_id":"1-2","day":"Fri","period":1,"subject":"HPE-101","teacher_id":"AT-3-2"},
+    {"class_id":"1-3","day":"Fri","period":1,"subject":"INF-101","teacher_id":"AT-1-1"},
+    {"class_id":"1-4","day":"Fri","period":1,"subject":"ART-101","teacher_id":"HT-3-4"},
+
+    {"class_id":"1-1","day":"Fri","period":2,"subject":"INF-101","teacher_id":"HT-3-3"},
+    {"class_id":"1-2","day":"Fri","period":2,"subject":"INF-101","teacher_id":"AT-2-1"},
+    {"class_id":"1-3","day":"Fri","period":2,"subject":"HPE-101","teacher_id":"AT-1-2"},
+    {"class_id":"1-4","day":"Fri","period":2,"subject":"INF-101","teacher_id":"AT-1-1"},
+
+    {"class_id":"1-1","day":"Fri","period":3,"subject":"HOM-101","teacher_id":"TBD-HE-01"},
+    {"class_id":"1-2","day":"Fri","period":3,"subject":"SPC-101","teacher_id":"PR-01"},
+    {"class_id":"1-3","day":"Fri","period":3,"subject":"SPC-101","teacher_id":"AT-3-1"},
+    {"class_id":"1-4","day":"Fri","period":3,"subject":"SCI-101","teacher_id":"HT-1-4"},
+
+    {"class_id":"1-1","day":"Fri","period":4,"subject":"SPC-101","teacher_id":"AT-3-1"},
+    {"class_id":"1-2","day":"Fri","period":4,"subject":"HOM-101","teacher_id":"TBD-HE-01"},
+    {"class_id":"1-3","day":"Fri","period":4,"subject":"HOM-101","teacher_id":"TBD-HE-01"},
+    {"class_id":"1-4","day":"Fri","period":4,"subject":"SPC-101","teacher_id":"PR-01"},
+
+    {"class_id":"1-1","day":"Fri","period":5,"subject":"LHR-101","teacher_id":"HT-1-1"},
+    {"class_id":"1-2","day":"Fri","period":5,"subject":"LHR-101","teacher_id":"HT-1-2"},
+    {"class_id":"1-3","day":"Fri","period":5,"subject":"LHR-101","teacher_id":"HT-1-3"},
+    {"class_id":"1-4","day":"Fri","period":5,"subject":"LHR-101","teacher_id":"HT-1-4"}
+  ]
+}
