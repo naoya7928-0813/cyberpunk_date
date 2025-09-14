@@ -2,50 +2,41 @@
   "grade": 1,
   "classes": [
     {
-      "class_id":"1-1",
-      "Mon":["MAT-101","ENG-101","SCI-101","SOC-101","HPE-101"],
-      "Tue":["MAT-101","SCI-101","ENG-101","ART-101","INF-101"],
-      "Wed":["JPN-101","SCI-101","MAT-101","HOM-101","ENG-101"],
-      "Thu":["INF-101","ART-101","SCI-101","SOC-101","SPC-101"],
-      "Fri":["MAT-101","HOM-101","JPN-101","HPE-101","LHR-101"]
+      "class_id": "1-1",
+      "Mon": ["MAT-101","SCI-101","MAT-101","SCI-101","ENG-101"],
+      "Tue": ["MAT-101","SCI-101","ENG-101","JPN-101","SOC-101"],
+      "Wed": ["ART-101","HPE-101","INF-101","HOM-101","MAT-101"],
+      "Thu": ["SCI-101","ENG-101","JPN-101","SOC-101","ART-101"],
+      "Fri": ["HPE-101","INF-101","HOM-101","SPC-101","LHR-101"]
     },
     {
-      "class_id":"1-2",
-      "Mon":["ENG-101","SCI-101","MAT-101","HOM-101","ART-101"],
-      "Tue":["SOC-101","MAT-101","INF-101","ENG-101","HPE-101"],
-      "Wed":["SCI-101","JPN-101","MAT-101","ART-101","ENG-101"],
-      "Thu":["INF-101","SOC-101","SCI-101","HOM-101","SPC-101"],
-      "Fri":["MAT-101","HPE-101","JPN-101","SCI-101","LHR-101"]
+      "class_id": "1-2",
+      "Mon": ["MAT-101","SCI-101","MAT-101","SCI-101","ENG-101"],
+      "Tue": ["MAT-101","SCI-101","ENG-101","JPN-101","SOC-101"],
+      "Wed": ["ART-101","HPE-101","INF-101","MAT-101","HOM-101"],
+      "Thu": ["SCI-101","ENG-101","JPN-101","SOC-101","ART-101"],
+      "Fri": ["HPE-101","INF-101","SPC-101","HOM-101","LHR-101"]
     },
     {
-      "class_id":"1-3",
-      "Mon":["SCI-101","SOC-101","ENG-101","MAT-101","HPE-101"],
-      "Tue":["ART-101","ENG-101","MAT-101","INF-101","SCI-101"],
-      "Wed":["JPN-101","SCI-101","HOM-101","MAT-101","ENG-101"],
-      "Thu":["SOC-101","ART-101","INF-101","SCI-101","SPC-101"],
-      "Fri":["HOM-101","HPE-101","JPN-101","MAT-101","LHR-101"]
+      "class_id": "1-3",
+      "Mon": ["SCI-101","MAT-101","SCI-101","MAT-101","MAT-101"],
+      "Tue": ["ENG-101","SCI-101","JPN-101","ENG-101","ART-101"],
+      "Wed": ["SOC-101","INF-101","HPE-101","MAT-101","SCI-101"],
+      "Thu": ["HOM-101","JPN-101","ENG-101","ART-101","SOC-101"],
+      "Fri": ["INF-101","HPE-101","SPC-101","HOM-101","LHR-101"]
     },
     {
-      "class_id":"1-4",
-      "Mon":["MAT-101","HOM-101","ENG-101","SCI-101","SOC-101"],
-      "Tue":["INF-101","ART-101","SCI-101","MAT-101","ENG-101"],
-      "Wed":["SCI-101","ENG-101","JPN-101","SOC-101","HPE-101"],
-      "Thu":["ART-101","INF-101","MAT-101","HOM-101","SPC-101"],
-      "Fri":["SCI-101","HPE-101","JPN-101","MAT-101","LHR-101"]
+      "class_id": "1-4",
+      "Mon": ["HOM-101","MAT-101","MAT-101","MAT-101","MAT-101"],
+      "Tue": ["ENG-101","ENG-101","SCI-101","SOC-101","JPN-101"],
+      "Wed": ["HPE-101","ART-101","INF-101","SCI-101","MAT-101"],
+      "Thu": ["ENG-101","HOM-101","SOC-101","JPN-101","HPE-101"],
+      "Fri": ["ART-101","INF-101","SCI-101","SPC-101","LHR-101"]
     }
   ],
-  "credit_check": {
-    "JPN-101": 2,
-    "MAT-101": 4,
-    "ENG-101": 3,
-    "SCI-101": 4,
-    "SOC-101": 2,
-    "ART-101": 2,
-    "HPE-101": 2,
-    "HOM-101": 2,
-    "INF-101": 2,
-    "SPC-101": 1,
-    "LHR-101": 1
-  },
-  "note": "教員割付は後段でteacher_idを紐付ける。今回は科目IDのみで確定。"
+  "notes": [
+    "各コマの同時開講数は教員数上限以内",
+    "LHR-101は金曜5限固定（担任担当）",
+    "HOM-101は同時開講なし（TBD-HE-01で単独枠運用）"
+  ]
 }
