@@ -1,0 +1,14 @@
+{
+  "id": "districts_dustlanders",
+  "class_id": "class_dustlanders",
+  "districts": [
+    {"id": "district_sand_clan", "name": "サンド・クラン"},
+    {"id": "district_rust_camp", "name": "ラスト・キャンプ"},
+    {"id": "district_dusk_colony", "name": "ダスク・コロニー"},
+    {"id": "district_bone_market", "name": "ボーン・マーケット"},
+    {"id": "district_iron_wall", "name": "アイアン・ウォール"},
+    {"id": "district_breach_point", "name": "ブリーチ・ポイント"},
+    {"id": "district_dead_oasis", "name": "デッド・オアシス"},
+    {"id": "district_ghost_hammock", "name": "ゴースト・ハンモック"}
+  ]
+}
