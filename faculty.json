@@ -1,0 +1,49 @@
+{
+  "principal": {
+    "id": "PR-01",
+    "name": "清水 澄乃",
+    "age": 49,
+    "role": "学園長",
+    "assign_class": "全校",
+    "subjects": ["学校運営", "危機管理概論（SPC-101）", "交渉・調停実務（NEG-301）"],
+    "virgin": "非処女",
+    "notes": "清潔感のある佇まい。合意形成と危機対応の実務家。"
+  },
+  "teachers": [
+    {"id":"HT-1-1","name":"藤原 陽子","age":33,"role":"担任","assign_class":"1年1組（担任）","subjects":["現代文I（JPN-101）","現代文II（JPN-201）","古典探究（JPN-301）"],"virgin":"非処女","notes":"論述指導が的確。学級運営は規律重視。"},
+    {"id":"AT-1-1","name":"三浦 千景","age":28,"role":"副担任","assign_class":"1年1組（副担任）","subjects":["情報I（INF-101）","情報セキュリティ運用（INF-201）"],"virgin":"処女","notes":"端末/ログ運用の指導が丁寧。"},
+    
+    {"id":"HT-1-2","name":"高橋 真由","age":35,"role":"担任","assign_class":"1年2組（担任）","subjects":["数学I（MAT-101）","数学II（MAT-201）","数学C/統計（MAT-301）"],"virgin":"非処女","notes":"基礎反復と応用演習のバランスが良い。"},
+    {"id":"AT-1-2","name":"石川 奈菜","age":29,"role":"副担任","assign_class":"1年2組（副担任）","subjects":["保健体育I（HPE-101）","保健体育II（HPE-201）"],"virgin":"処女","notes":"安全第一の授業設計。BLS受講済み。"},
+    
+    {"id":"HT-1-3","name":"中村 美智","age":41,"role":"担任","assign_class":"1年3組（担任）","subjects":["英語コミュニケーションI（ENG-101）","英語コミュニケーションII（ENG-201）","英語表現（ENG-301）"],"virgin":"非処女","notes":"発話重視。英語での朝のHRを導入。"},
+    {"id":"AT-1-3","name":"小泉 美和","age":27,"role":"副担任","assign_class":"1年3組（副担任）","subjects":["地理総合（SOC-101）","公共（CIV-201）"],"virgin":"処女","notes":"資料作成が緻密。討論型授業が得意。"},
+    
+    {"id":"HT-1-4","name":"山本 さや","age":38,"role":"担任","assign_class":"1年4組（担任）","subjects":["科学総合（SCI-101）","化学基礎（CHE-201）"],"virgin":"非処女","notes":"安全管理の徹底で事故ゼロ。"},
+    {"id":"AT-1-4","name":"佐々木 玲奈","age":30,"role":"副担任","assign_class":"1年4組（副担任）","subjects":["芸術（ART-101）"],"virgin":"処女","notes":"舞台美術の監修経験あり。"},
+    
+    {"id":"HT-2-1","name":"田中 千尋","age":36,"role":"担任","assign_class":"2年1組（担任）","subjects":["現代文II（JPN-201）","古典探究（JPN-301）"],"virgin":"非処女","notes":"要約/小論文の評価基準が明瞭。"},
+    {"id":"AT-2-1","name":"大野 こはる","age":26,"role":"副担任","assign_class":"2年1組（副担任）","subjects":["情報I（INF-101）","情報セキュリティ運用（INF-201）","データ倫理とプライバシー法（ETH-201）"],"virgin":"処女","notes":"監査手順を生徒にロールプレイで指導。"},
+    
+    {"id":"HT-2-2","name":"鈴木 由香","age":40,"role":"担任","assign_class":"2年2組（担任）","subjects":["数学II（MAT-201）","数学C/統計（MAT-301）"],"virgin":"非処女","notes":"記述式評価を重視。"},
+    {"id":"AT-2-2","name":"工藤 真帆","age":31,"role":"副担任","assign_class":"2年2組（副担任）","subjects":["公共（CIV-201）","日本史探究（HIS-301）"],"virgin":"処女","notes":"判例と史料読解をリンクさせる授業。"},
+    
+    {"id":"HT-2-3","name":"松本 梨沙","age":34,"role":"担任","assign_class":"2年3組（担任）","subjects":["英語コミュニケーションII（ENG-201）","英語表現（ENG-301）"],"virgin":"非処女","notes":"ディベート設計が巧み。"},
+    {"id":"AT-2-3","name":"黒川 由衣","age":29,"role":"副担任","assign_class":"2年3組（副担任）","subjects":["生物基礎（BIO-201）","地学基礎（EAR-201）"],"virgin":"処女","notes":"観察実習の安全管理に強い。"},
+    
+    {"id":"HT-2-4","name":"橋本 結衣","age":39,"role":"担任","assign_class":"2年4組（担任）","subjects":["化学基礎（CHE-201）","物理基礎（PHY-201）"],"virgin":"非処女","notes":"演示実験の演出が巧い。"},
+    {"id":"AT-2-4","name":"長谷川 茜","age":32,"role":"副担任","assign_class":"2年4組（副担任）","subjects":["歴史総合（SOC-201）","世界史探究（HIS-301）"],"virgin":"処女","notes":"年表×地図のクロス演習を採用。"},
+    
+    {"id":"HT-3-1","name":"佐藤 綾香","age":45,"role":"担任","assign_class":"3年1組（担任）","subjects":["物理基礎（PHY-201）","数学II（MAT-201）"],"virgin":"非処女","notes":"入試レベルの記述対策に精通。"},
+    {"id":"AT-3-1","name":"森 ひなた","age":27,"role":"副担任","assign_class":"3年1組（副担任）","subjects":["危機管理概論（SPC-101）","行事安全計画（SPC-201）"],"virgin":"処女","notes":"避難動線の実地検証を担当。"},
+    
+    {"id":"HT-3-2","name":"井上 彩乃","age":37,"role":"担任","assign_class":"3年2組（担任）","subjects":["地理総合（SOC-101）","公共（CIV-201）","交渉・調停実務（NEG-301）"],"virgin":"非処女","notes":"合意形成ワークを授業に組み込む。"},
+    {"id":"AT-3-2","name":"青木 美月","age":28,"role":"副担任","assign_class":"3年2組（副担任）","subjects":["保健体育II（HPE-201）","応急手当/BLS（SPC-202）"],"virgin":"処女","notes":"救急演習の進行が的確。"},
+    
+    {"id":"HT-3-3","name":"加藤 美紀","age":42,"role":"担任","assign_class":"3年3組（担任）","subjects":["情報I（INF-101）","情報セキュリティ運用（INF-201）","データ倫理とプライバシー法（ETH-201）"],"virgin":"非処女","notes":"ケーススタディ重視。"},
+    {"id":"AT-3-3","name":"小林 佳奈","age":30,"role":"副担任","assign_class":"3年3組（副担任）","subjects":["寮自治と夜間巡回（DOR-201）","特別保護運用I（PRT-201）"],"virgin":"処女","notes":"寮務と特別保護委の橋渡し役。"},
+    
+    {"id":"HT-3-4","name":"山田 早苗","age":44,"role":"担任","assign_class":"3年4組（担任）","subjects":["芸術（書道）（ART-101）","日本史探究（HIS-301）"],"virgin":"非処女","notes":"作品講評が端的。史料の実物複製を活用。"},
+    {"id":"AT-3-4","name":"柴田 玲","age":33,"role":"副担任","assign_class":"3年4組（副担任）","subjects":["危機対応コミュニケーション（SPC-203）","行事安全計画（SPC-201）"],"virgin":"処女","notes":"緊急アナウンス台本の作成指導。"}
+  ]
+}
