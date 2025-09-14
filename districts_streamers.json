@@ -1,0 +1,14 @@
+{
+  "id": "districts_streamers",
+  "class_id": "class_streamers",
+  "districts": [
+    {"id": "district_neon_drift", "name": "ネオン・ドリフト"},
+    {"id": "district_hype_square", "name": "ハイプ・スクエア"},
+    {"id": "district_virtual_arena", "name": "バーチャル・アリーナ"},
+    {"id": "district_echo_mall", "name": "エコー・モール"},
+    {"id": "district_chroma_tower", "name": "クロマ・タワー"},
+    {"id": "district_liveline_avenue", "name": "ライブライン・アベニュー"},
+    {"id": "district_spectrum_park", "name": "スペクトラム・パーク"},
+    {"id": "district_stage_zero", "name": "ステージ・ゼロ"}
+  ]
+}
