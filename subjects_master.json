@@ -1,0 +1,43 @@
+{
+  "subjects": [
+    {"id":"JPN-101","name":"現代文I","category":"必修","years":[1],"credits":2,"prereq":[]},
+    {"id":"JPN-201","name":"現代文II","category":"必修","years":[2],"credits":2,"prereq":["JPN-101"]},
+    {"id":"JPN-301","name":"古典探究","category":"必修","years":[3],"credits":2,"prereq":["JPN-201"]},
+
+    {"id":"MAT-101","name":"数学I","category":"必修","years":[1],"credits":4,"prereq":[]},
+    {"id":"MAT-201","name":"数学II","category":"必修","years":[2],"credits":4,"prereq":["MAT-101"]},
+    {"id":"MAT-301","name":"数学C/統計","category":"選択必修","years":[3],"credits":2,"prereq":["MAT-201"]},
+
+    {"id":"ENG-101","name":"英語コミュニケーションI","category":"必修","years":[1],"credits":3,"prereq":[]},
+    {"id":"ENG-201","name":"英語コミュニケーションII","category":"必修","years":[2],"credits":3,"prereq":["ENG-101"]},
+    {"id":"ENG-301","name":"英語表現","category":"選択必修","years":[3],"credits":2,"prereq":["ENG-201"]},
+
+    {"id":"SCI-101","name":"科学総合","category":"必修","years":[1],"credits":4,"prereq":[]},
+    {"id":"PHY-201","name":"物理基礎","category":"選択必修","years":[2],"credits":2,"prereq":["SCI-101"]},
+    {"id":"CHE-201","name":"化学基礎","category":"選択必修","years":[2],"credits":2,"prereq":["SCI-101"]},
+    {"id":"BIO-201","name":"生物基礎","category":"選択必修","years":[2],"credits":2,"prereq":["SCI-101"]},
+    {"id":"EAR-201","name":"地学基礎","category":"選択","years":[2,3],"credits":2,"prereq":["SCI-101"]},
+
+    {"id":"SOC-101","name":"地理総合","category":"必修","years":[1],"credits":2,"prereq":[]},
+    {"id":"SOC-201","name":"歴史総合","category":"必修","years":[2],"credits":2,"prereq":["SOC-101"]},
+    {"id":"CIV-201","name":"公共（倫理・政経）","category":"必修","years":[2],"credits":2,"prereq":["SOC-101"]},
+    {"id":"HIS-301","name":"日本史探究／世界史探究","category":"選択必修","years":[3],"credits":2,"prereq":["SOC-201"]},
+
+    {"id":"ART-101","name":"芸術（音楽／美術／書道／演劇）","category":"必修","years":[1],"credits":2,"prereq":[]},
+    {"id":"HPE-101","name":"保健体育I","category":"必修","years":[1],"credits":2,"prereq":[]},
+    {"id":"HPE-201","name":"保健体育II（護身術含む）","category":"必修","years":[2],"credits":2,"prereq":["HPE-101"]},
+    {"id":"HOM-101","name":"家庭基礎","category":"必修","years":[1],"credits":2,"prereq":[]},
+    {"id":"INF-101","name":"情報I","category":"必修","years":[1],"credits":2,"prereq":[]},
+    {"id":"INF-201","name":"情報セキュリティ運用","category":"選択必修","years":[2,3],"credits":2,"prereq":["INF-101"]},
+
+    {"id":"SPC-101","name":"危機管理概論","category":"必修（校独自）","years":[1],"credits":1,"prereq":[]},
+    {"id":"SPC-201","name":"行事安全計画","category":"選択必修（校独自）","years":[2],"credits":2,"prereq":["SPC-101"]},
+    {"id":"SPC-202","name":"応急手当／BLS","category":"選択必修（校独自）","years":[2],"credits":1,"prereq":["SPC-101"]},
+    {"id":"SPC-203","name":"危機対応コミュニケーション","category":"選択（校独自）","years":[2,3],"credits":1,"prereq":["SPC-101"]},
+    {"id":"PRT-201","name":"特別保護運用I（法・倫理・手順）","category":"選択必修（校独自）","years":[2],"credits":2,"prereq":["CIV-201","INF-101"]},
+    {"id":"PRT-301","name":"特別保護運用II（実地演習）","category":"選択（校独自）","years":[3],"credits":2,"prereq":["PRT-201"]},
+    {"id":"ETH-201","name":"データ倫理とプライバシー法","category":"選択必修","years":[2,3],"credits":2,"prereq":["INF-101","CIV-201"]},
+
+    {"id":"LHR-101","name":"ロングホームルーム","category":"学年運営","years":[1,2,3],"credits":1,"prereq":[]}
+  ]
+}
