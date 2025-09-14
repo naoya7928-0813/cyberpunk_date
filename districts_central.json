@@ -2,13 +2,61 @@
   "id": "districts_central",
   "class_id": "class_central",
   "districts": [
-    {"id": "district_mid_square", "name": "ミッド・スクエア"},
-    {"id": "district_silver_avenue", "name": "シルバー・アベニュー"},
-    {"id": "district_circle_market", "name": "サークル・マーケット"},
-    {"id": "district_argo_bridge", "name": "アルゴ・ブリッジ"},
-    {"id": "district_new_capital_heights", "name": "ニュー・キャピタル・ハイツ"},
-    {"id": "district_orbital_town", "name": "オービタル・タウン"},
-    {"id": "district_leyline_street", "name": "レイライン・ストリート"},
-    {"id": "district_metro_block47", "name": "メトロ・ブロック47"}
+    {
+      "id": "district_mid_square",
+      "name": "ミッド・スクエア",
+      "avg_land_price": 9500,
+      "population": 1500000,
+      "description": "中核層向けの商業広場と高層マンションが並ぶ。"
+    },
+    {
+      "id": "district_silver_avenue",
+      "name": "シルバー・アベニュー",
+      "avg_land_price": 9000,
+      "population": 1500000,
+      "description": "オフィス街とブランド直営店が連なる通り。"
+    },
+    {
+      "id": "district_circle_market",
+      "name": "サークル・マーケット",
+      "avg_land_price": 8000,
+      "population": 1500000,
+      "description": "円形市場と複合施設が集まる商業ハブ。"
+    },
+    {
+      "id": "district_argo_bridge",
+      "name": "アルゴ・ブリッジ",
+      "avg_land_price": 8500,
+      "population": 1500000,
+      "description": "交通の要衝。橋上にオフィスと店舗が密集。"
+    },
+    {
+      "id": "district_new_capital_heights",
+      "name": "ニュー・キャピタル・ハイツ",
+      "avg_land_price": 10000,
+      "population": 1500000,
+      "description": "中枢官庁と企業本部のサテライトが林立。"
+    },
+    {
+      "id": "district_orbital_town",
+      "name": "オービタル・タウン",
+      "avg_land_price": 7800,
+      "population": 1500000,
+      "description": "円環状の住宅区。通勤動線が効率化。"
+    },
+    {
+      "id": "district_leyline_street",
+      "name": "レイライン・ストリート",
+      "avg_land_price": 8200,
+      "population": 1500000,
+      "description": "地下通信幹線の上に築かれた繁華街。"
+    },
+    {
+      "id": "district_metro_block47",
+      "name": "メトロ・ブロック47",
+      "avg_land_price": 7000,
+      "population": 1500000,
+      "description": "鉄道結節点の再開発区。飲食と娯楽が充実。"
+    }
   ]
 }
