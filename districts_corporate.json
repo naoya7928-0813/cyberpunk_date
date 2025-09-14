@@ -1,0 +1,14 @@
+{
+  "id": "districts_corporate",
+  "class_id": "class_corporate",
+  "districts": [
+    {"id": "district_neo_towers", "name": "ネオ・タワーズ"},
+    {"id": "district_arc_plaza", "name": "アーク・プラザ"},
+    {"id": "district_skydome_residence", "name": "スカイドーム・レジデンス"},
+    {"id": "district_imperial_garden", "name": "インペリアル・ガーデン"},
+    {"id": "district_cloud_arc", "name": "クラウド・アーク"},
+    {"id": "district_diamond_link", "name": "ダイヤモンド・リンク"},
+    {"id": "district_aurora_wall", "name": "オーロラ・ウォール"},
+    {"id": "district_prime_court", "name": "プライム・コート"}
+  ]
+}
