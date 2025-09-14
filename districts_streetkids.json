@@ -2,13 +2,61 @@
   "id": "districts_streetkids",
   "class_id": "class_streetkids",
   "districts": [
-    {"id": "district_block13", "name": "ブロック・13"},
-    {"id": "district_crows_nest", "name": "クロウズ・ネスト"},
-    {"id": "district_spiral_dive", "name": "スパイラル・ダイブ"},
-    {"id": "district_junkway", "name": "ジャンクウェイ"},
-    {"id": "district_red_under", "name": "レッド・アンダー"},
-    {"id": "district_dark_hole", "name": "ダークホール"},
-    {"id": "district_chaos_stair", "name": "カオス・ステア"},
-    {"id": "district_nightshade_alley", "name": "ナイトシェード・アリー"}
+    {
+      "id": "district_block13",
+      "name": "ブロック・13",
+      "avg_land_price": 1800,
+      "population": 2625000,
+      "description": "老朽化高層の群棟。電力は不安定、壁は落書きだらけ。"
+    },
+    {
+      "id": "district_crows_nest",
+      "name": "クロウズ・ネスト",
+      "avg_land_price": 1600,
+      "population": 2625000,
+      "description": "屋上集落と違法電波の発信拠点。"
+    },
+    {
+      "id": "district_spiral_dive",
+      "name": "スパイラル・ダイブ",
+      "avg_land_price": 1500,
+      "population": 2625000,
+      "description": "地下スラムへ続く螺旋坑。闇市と臓器ブローカー。"
+    },
+    {
+      "id": "district_junkway",
+      "name": "ジャンクウェイ",
+      "avg_land_price": 1200,
+      "population": 2625000,
+      "description": "廃材とスクラップの迷路。部品の宝庫だが危険。"
+    },
+    {
+      "id": "district_red_under",
+      "name": "レッド・アンダー",
+      "avg_land_price": 1400,
+      "population": 2625000,
+      "description": "非常灯が赤く染める高架下。抗争が日常。"
+    },
+    {
+      "id": "district_dark_hole",
+      "name": "ダークホール",
+      "avg_land_price": 1000,
+      "population": 2625000,
+      "description": "地盤沈下でできた大穴周辺の集落。"
+    },
+    {
+      "id": "district_chaos_stair",
+      "name": "カオス・ステア",
+      "avg_land_price": 1300,
+      "population": 2625000,
+      "description": "階段状の密集住宅。逃走と追跡の名所。"
+    },
+    {
+      "id": "district_nightshade_alley",
+      "name": "ナイトシェード・アリー",
+      "avg_land_price": 1100,
+      "population": 2625000,
+      "description": "細路地が入り組む影の路。密売人の天国。"
+    }
   ]
 }
